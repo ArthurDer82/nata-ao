@@ -3,15 +3,12 @@
  ?>   
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <title>formulário de inscrição</title>
-    <meta name="author" content="">
     <meta name="description" content="">
     <meta name="viewport" content="width-device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
- <p>FORMULÁRIO PARA INSCRIÇÃO DE COMPETIDORES</p>
+ <a>FORMULÁRIO PARA INSCRIÇÃO DE COMPETIDORES</a>
 
  <form action="script.php" method="POST">
     <?php
@@ -27,9 +24,9 @@
             echo $menssagemDeErro;
         }
     ?>
-    <p>Seu nome: <input type="text" name="nome"></p>
-    <p>Sua idade: <input type="text" name="idade"></p>
-    <p><input type="submit" value="Enviar dados do competidor"></p>
+    <h1>Seu nome: <input type="text" name="nome"></h1>
+    <h2>Sua idade: <input type="text" name="idade"></h2>
+    <h3><input type="submit" value="Enviar dados do competidor"></h3>
 </form>   
 </body>   
 </html>
